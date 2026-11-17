@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://coachingcollective.com/pl/</loc></url><url><loc>https://coachingcollective.com/pl/malgorzata-grande/</loc></url><url><loc>https://coachingcollective.com/pl/agnieszka-galezewska-gotowka/</loc></url><url><loc>https://coachingcollective.com/pl/adam-malinowski/</loc></url><url><loc>https://coachingcollective.com/en/</loc></url><url><loc>https://coachingcollective.com/en/malgorzata-grande/</loc></url><url><loc>https://coachingcollective.com/en/agnieszka-galezewska-gotowka/</loc></url><url><loc>https://coachingcollective.com/en/adam-malinowski/</loc></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://alsikorski.github.io/Coaching-web-page/pl/</loc>
+    </url>
+    <url>
+        <loc>https://alsikorski.github.io/Coaching-web-page/pl/malgorzata-grande/</loc>
+    </url>
+    <url>
+        <loc>https://alsikorski.github.io/Coaching-web-page/pl/agnieszka-galezewska-gotowka/</loc>
+    </url>
+    <url>
+        <loc>https://alsikorski.github.io/Coaching-web-page/pl/adam-malinowski/</loc>
+    </url>
+    <url>
+        <loc>https://alsikorski.github.io/Coaching-web-page/en/</loc>
+    </url>
+    <url>
+        <loc>https://alsikorski.github.io/Coaching-web-page/en/malgorzata-grande/</loc>
+    </url>
+    <url>
+        <loc>https://alsikorski.github.io/Coaching-web-page/en/agnieszka-galezewska-gotowka/</loc>
+    </url>
+    <url>
+        <loc>https://alsikorski.github.io/Coaching-web-page/en/adam-malinowski/</loc>
+    </url>
+</urlset>
