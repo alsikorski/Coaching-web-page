@@ -202,7 +202,7 @@ p {
     flex-direction: column
 }
 
-.eyebrow {
+/* .eyebrow {
     text-transform: uppercase;
     letter-spacing: .17em;
     font-weight: 700;
@@ -222,7 +222,7 @@ p {
     background: currentColor;
     vertical-align: middle;
     margin-right: 12px
-}
+} */
 
 .hero h1 {
     font: normal clamp(54px, 5.8vw, 89px)/1.07 var(--serif);
@@ -754,7 +754,7 @@ p {
     color: #b7c8ad
 }
 
-.profile-copy>p:not(.eyebrow):not(.profile-tag) {
+.profile-copy>p:not(.profile-tag) {
     color: #d6e2d7;
     line-height: 1.9;
     max-width: 660px
@@ -798,11 +798,6 @@ p {
     background: #fff;
     padding: 30px;
     min-height: 190px
-}
-
-.specialty-no {
-    font-size: 11px;
-    color: var(--moss)
 }
 
 .specialty-card h3 {
