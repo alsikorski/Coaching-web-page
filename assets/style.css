@@ -422,7 +422,8 @@ p {
 .service-icon {
     font: 48px/1 var(--serif);
     color: #829787;
-    margin: 0 0 43px
+    margin: 0 0 43px;
+    text-align: center;
 }
 
 .service-index {
@@ -431,6 +432,10 @@ p {
     top: 28px;
     font-size: 11px;
     color: var(--moss)
+}
+
+.service-card .service-icon {
+    padding-bottom: 15px;
 }
 
 .service-card h3 {
@@ -570,18 +575,34 @@ p {
     font-size: 14px
 }
 
+.service-icon {
+    margin: 0;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-row .service-icon img {
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+
 .work-list {
     border-top: 1px solid var(--line)
 }
 
 .work-row {
     display: grid;
-    grid-template-columns: 70px 1.1fr 1fr 35px;
+    grid-template-columns: 72px 1.1fr 1fr 35px;
     align-items: center;
     gap: 26px;
     border-bottom: 1px solid var(--line);
     padding: 28px 0
 }
+
+
 
 .work-number {
     font-size: 12px;
