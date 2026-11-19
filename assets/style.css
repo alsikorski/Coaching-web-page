@@ -347,6 +347,21 @@ p {
     background: #c8d3b5
 }
 
+.infographics-photo {
+    height: 635px;
+    width: 100%;
+    max-width: 635px;
+    overflow: hidden;
+    background: linear-gradient(140deg, #739178, #243f37)
+}
+
+.infographics-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: saturate(.78)
+}
+
 .section {
     padding: 112px 0
 }
@@ -374,6 +389,11 @@ p {
     max-width: 790px;
     color: #5a6a60;
     line-height: 1.9
+}
+
+.intro-section .display-heading {
+    font: normal clamp(37px, 4vw, 50px)/1.16 var(--serif);
+    letter-spacing: -.035em
 }
 
 .section-intro {
