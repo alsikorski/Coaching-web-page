@@ -13,6 +13,9 @@ Wersja przygotowana pod **https://alsikorski.github.io/Coaching-web-page/** (rep
 - Meta refresh w głównym index.html wskazuje na polską stronę.
 - Canonical, hreflang, og:url, Schema.org, sitemap i robots.txt wskazują na adres GitHub Pages.
 - W katalogu głównym jest `.nojekyll`.
-- Zdjęcia nadal są linkowane z Unsplash, a nie pobrane lokalnie.
+- Zdjęcia i ikony są przechowywane lokalnie w `assets/`.
 
 **Uwaga:** jeżeli przełączysz stronę na własną domenę, ponownie ustaw ścieżki na `/pl/`, `/en/`, `/assets/` i zmień bazę SEO.
+
+## Uruchomienie lokalne
+Strona używa prefiksu GitHub Pages. Umieść katalog projektu pod nazwą `Coaching-web-page` w katalogu nadrzędnym i uruchom w nim `python -m http.server 8000`. Otwórz `http://localhost:8000/Coaching-web-page/`.
