@@ -61,6 +61,10 @@ p {
     color: inherit
 }
 
+span svg {
+  vertical-align: middle;
+}
+
 .container {
     width: min(1200px, calc(100% - 48px));
     margin-inline: auto
@@ -178,28 +182,6 @@ p {
     align-items: flex-start;
     flex-direction: column
 }
-
-/* .eyebrow {
-    text-transform: uppercase;
-    letter-spacing: .17em;
-    font-weight: 700;
-    font-size: 11px;
-    color: var(--moss);
-    margin-bottom: 22px
-}
-
-.eyebrow.light {
-    color: #dbddc5
-}
-
-.eyebrow-line {
-    display: inline-block;
-    width: 28px;
-    height: 1px;
-    background: currentColor;
-    vertical-align: middle;
-    margin-right: 12px
-} */
 
 .hero h1 {
     font: normal clamp(54px, 5.8vw, 89px)/1.07 var(--serif);
@@ -849,10 +831,10 @@ p {
     gap: 85px
 }
 
-.profile-contact p:not(.eyebrow) {
-    color: #cbd9ce
+.profile-contact .cooperation {
+    width: 100%;
+    line-height: 1.9
 }
-
 .fee-list {
     list-style: none;
     margin: 0;
