@@ -1248,3 +1248,58 @@ button:focus-visible {
         transition: none !important
     }
 }
+/* BEGIN beliefs-section layout */
+.beliefs-section .beliefs-grid {
+    display: block;
+}
+.beliefs-section .beliefs-left .display-heading {
+    max-width: none;
+    margin: 0 0 45px;
+}
+.beliefs-section .beliefs-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 0;
+    border-top: 1px solid #6b8075;
+}
+.beliefs-section .belief {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding: 36px 0 36px 40px;
+    border-top: 0;
+    border-bottom: 1px solid #6b8075;
+}
+.beliefs-section .belief:nth-child(odd) {
+    padding: 36px 40px 36px 0;
+    border-right: 1px solid #6b8075;
+}
+.beliefs-section .belief-icon {
+    display: block;
+    width: 44px;
+    height: 44px;
+    color: #c4cfb1;
+}
+.beliefs-section .belief h3 {
+    font: normal clamp(24px, 2.4vw, 30px)/1.2 var(--serif);
+    margin: 0 0 12px;
+}
+.beliefs-section .belief p {
+    line-height: 1.8;
+    max-width: 52ch;
+}
+@media (max-width: 760px) {
+    .beliefs-section .beliefs-left .display-heading {
+        margin-bottom: 32px;
+    }
+    .beliefs-section .beliefs-list {
+        grid-template-columns: 1fr;
+    }
+    .beliefs-section .belief,
+    .beliefs-section .belief:nth-child(odd) {
+        padding: 28px 0;
+        border-right: 0;
+        gap: 16px;
+    }
+}
+/* END beliefs-section layout */
