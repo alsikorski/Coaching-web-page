@@ -787,8 +787,29 @@ p {
     font-size: 14px
 }
 
-.profile-details a {
-    border-bottom: 1px solid #a9baa7
+.profile-details > a,
+.profile-details > span {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    max-width: 100%;
+    min-width: 0;
+}
+
+.profile-contact-icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    color: var(--accent);
+}
+
+.profile-contact-text {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.profile-details a .profile-contact-text {
+    border-bottom: 1px solid #a9baa7;
 }
 
 .missing-detail {
