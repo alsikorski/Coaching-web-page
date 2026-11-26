@@ -54,7 +54,7 @@
         </div>
     </header>
     <main id="main">
-        <section class="hero">
+        <section class="hero hero-navigation">
             <div class="container hero-grid">
                 <div class="hero-copy">
                     <div class="eyebrow light"><span class="eyebrow-line"></span> COACHING · MENTORING · CONSULTING
@@ -62,31 +62,25 @@
                     <h1>Różne perspektywy.<br><em>Twój kierunek.</em></h1>
                     <p class="hero-lead">Różne doświadczenia. Wspólna przestrzeń do rozwoju.</p>
                     <p>Nie ma jednej drogi do zmiany. Tak jak nie ma dwóch takich samych ludzi.</p>
-                    <div class="hero-actions"><a class="btn btn-cream" href="/Coaching-web-page/pl/#zespol">Poznaj nas
-                            <span>
-                                <svg width="15" height="15" viewbox="0 0 24 24">
-                                    <use href="../assets/icons/move-up-right.svg"></use>
-                                </svg>
-                            </span>
-                        </a>
-                        <a class="text-link light-link"
-                            href="/Coaching-web-page/pl/#obszary">Obszary
-                            wsparcia <span>
-                               <svg width="15" height="15" viewbox="0 0 24 24">
-                                    <use href="../assets/icons/move-up-right.svg"></use>
-                                </svg>
-                            </span></a></div>
                 </div>
-                <div class="hero-art">
-                    <div class="hero-photo"><img class="hero-img"
-                            src="../assets/images/hero_coaching.webp"
-                            alt="Coaching hero" loading="eager" decoding="async"
-                            width="555"
-                            height="570"
-                            fetchpriority="high"
-                            onerror="this.onerror=null;this.src='/Coaching-web-page/assets/image-placeholder.svg'">
-                    </div>
-                </div>
+                <nav class="hero-section-links" aria-label="Sekcje strony">
+                    <a class="hero-section-link" href="#obszary">
+                        <span><span class="hero-section-link-title">Obszary wsparcia</span>
+                            <span class="hero-section-link-description">Z czym możesz do nas przyjść?</span></span>
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 7l10 10M7 17h10V7"/></svg>
+                    </a>
+                    <a class="hero-section-link" href="#zespol">
+                        <span><span class="hero-section-link-title">Nasz zespół</span>
+                            <span class="hero-section-link-description">Poznaj nasze perspektywy</span></span>
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 7l10 10M7 17h10V7"/></svg>
+                    </a>
+                    <a class="hero-section-link" href="#wspolpraca">
+                        <span><span class="hero-section-link-title">Formy współpracy</span>
+                            <span class="hero-section-link-description">Znajdź rozwiązanie dla siebie</span></span>
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 7l10 10M7 17h10V7"/></svg>
+                    </a>
+                    <a class="btn btn-cream hero-contact-link" href="#kontakt">Porozmawiajmy<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 7l10 10M7 17h10V7"/></svg></a>
+                </nav>
             </div>
             <div class="hero-bottom-line"></div>
         </section>
@@ -297,7 +291,7 @@
                 </div>
             </div>
         </section>
-        <section class="section work-section">
+        <section id="wspolpraca" class="section work-section">
             <div class="container">
                 <div class="section-heading">
                     <div>
